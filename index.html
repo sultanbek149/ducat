@@ -16,23 +16,109 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/styles.css" />
 
     <link rel="stylesheet" href="style.css">
+
+    <script defer src="anime.js"></script>
+    <script defer src="app.js"></script>
+
+    <style>
+        .custom-animated-handle {
+            transition: transform 0.2s;
+        }
+
+        .slider-with-animated-handle:hover .custom-animated-handle {
+            transform: scale(1.2);
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container">
-        <h1>What is <span class="name">$DUCAT</span>?</h1>
-
-        <h2>
-            1 billion token supply, DUCAT, 5znm9nSyJCeEw1WDT2MYQDDPS4bMsQ1PqhRS1NHAECGQ
-        </h2>
+    <div class="container container1">
+        <h1><span class="name">$DUCAT</span></h1>
 
 
         <div class="cat">
-            <img-comparison-slider>
+            <img-comparison-slider class="slider-with-animated-handle" value="25">
                 <img slot="first" src="duragcatpretransformation.png" />
                 <img slot="second" src="durag cat final transformation.png" />
+                <svg slot="handle" class="custom-animated-handle" xmlns="http://www.w3.org/2000/svg" width="100"
+                    viewBox="-8 -3 16 6">
+                    <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2"
+                        stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                </svg>
             </img-comparison-slider>
         </div>
+
+        <div class="img img1">
+            <img src="sticker1.png" alt="stiker">
+        </div>
+        <div class="img img2">
+            <img src="sticker2.png" alt="stiker">
+        </div>
+        <div class="img img3">
+            <img src="sticker3.png" alt="stiker">
+        </div>
+        <div class="img img4">
+            <img src="sticker4.png" alt="stiker">
+        </div>
+
+
+        <div class="img img5">
+            <img src="sticker1.png" alt="stiker">
+        </div>
+        <div class="img img6">
+            <img src="sticker2.png" alt="stiker">
+        </div>
+        <div class="img img7">
+            <img src="sticker3.png" alt="stiker">
+        </div>
+        <div class="img img8">
+            <img src="sticker4.png" alt="stiker">
+        </div>
+
+
+        <div class="img img9">
+            <img src="sticker1.png" alt="stiker">
+        </div>
+        <div class="img img10">
+            <img src="sticker2.png" alt="stiker">
+        </div>
+        <div class="img img11">
+            <img src="sticker3.png" alt="stiker">
+        </div>
+        <div class="img img12">
+            <img src="sticker4.png" alt="stiker">
+        </div>
+
+
+        <div class="img img13">
+            <img src="sticker1.png" alt="stiker">
+        </div>
+        <div class="img img14">
+            <img src="sticker2.png" alt="stiker">
+        </div>
+        <div class="img img15">
+            <img src="sticker3.png" alt="stiker">
+        </div>
+        <div class="img img16">
+            <img src="sticker4.png" alt="stiker">
+        </div>
+
+        <div class="img img17">
+            <img src="sticker1.png" alt="stiker">
+        </div>
+
+    </div>
+
+    <div class="container container2">
+        <h2>What is <span class="name2">$DUCAT</span><span class="y">?</span></h2>
+
+        <p class="text">
+            catwifdurag isn’t just another Solana meme coin; it’s a lifestyle for those who appreciate the finer things
+            in life,
+            like a sleek durag on a sophisticated cat. catwifdurag is a movement like no other. Adjust your durag and
+            get ready for
+            the ride of your life.
+        </p>
     </div>
 </body>
 
