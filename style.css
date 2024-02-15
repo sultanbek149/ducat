@@ -357,6 +357,8 @@ h1 {
 
 .container1 {
   position: relative;
+  max-height: 600px;
+  height: 90vh;
 }
 
 img[slot="first"] {
@@ -487,7 +489,7 @@ h2 {
 }
 
 .text {
-  max-width: 850px;
+  max-width: 750px;
   margin: auto;
   font-size: 30px;
 
@@ -514,9 +516,6 @@ h2 {
   .text {
     font-size: 25px;
   }
-  .img {
-    display: none;
-  }
 }
 
 .socials img {
@@ -525,10 +524,11 @@ h2 {
 }
 
 .socials {
-  margin-top: 30px;
+  margin-top: 40px;
   display: flex;
   align-items: center;
   max-width: 500px;
-  justify-content: space-evenly;
+  gap: 30px;
+  justify-content: center;
   margin-inline: auto;
 }
